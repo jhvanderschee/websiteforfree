@@ -26,5 +26,5 @@ collections:
     output: true
 
 colorsets: 
-  - original
+  - default
   - orange
