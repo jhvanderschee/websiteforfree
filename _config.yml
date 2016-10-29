@@ -14,11 +14,17 @@ defaults:
     values:
       layout: "portfolio" 
 
+permalink: /blog/:year/:month/:day/:title
+
+sass:
+  style: compressed
+
 collections:
   portfolio:
     output: true
+  templates:
+    output: true
 
 colorsets: 
-  - alpineblue
-  - green
-  - tomatored
+  - original
+  - orange
