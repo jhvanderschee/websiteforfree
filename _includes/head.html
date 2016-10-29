@@ -44,7 +44,7 @@
 	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="/css/style_{{ site.data.settings.colorset }}.css">
+	<link rel="stylesheet" href="/css/style_{% if site.data.settings.colorset %}{{ site.data.settings.colorset }}{% else %}default{% endif %}.css">
 
 	<!-- Modernizr JS -->
 	<script src="/js/modernizr-2.6.2.min.js"></script>
