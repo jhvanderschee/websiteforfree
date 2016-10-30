@@ -1,10 +1,10 @@
 header1: ti-money
 header2: ti-announcement
 header3: ti-timer
-home1: 
-home2:
-home3:
-home4:
+features1: ti-vector 
+features2: ti-tablet
+features3: ti-settings
+features4: ti-ruler-pencil
 facts1: 
 facts2:
 facts3:
@@ -13,10 +13,10 @@ _comments:
   header1: 'See https://themify.me/themify-icons'
   header2: 'See https://themify.me/themify-icons'
   header3: 'See https://themify.me/themify-icons'
-  home1: 'See https://themify.me/themify-icons'
-  home2: 'See https://themify.me/themify-icons'
-  home3: 'See https://themify.me/themify-icons'
-  home4: 'See https://themify.me/themify-icons'
+  features1: 'See https://themify.me/themify-icons'
+  features2: 'See https://themify.me/themify-icons'
+  features3: 'See https://themify.me/themify-icons'
+  features4: 'See https://themify.me/themify-icons'
   facts1: 'See https://themify.me/themify-icons'
   facts2: 'See https://themify.me/themify-icons'
   facts3: 'See https://themify.me/themify-icons'
