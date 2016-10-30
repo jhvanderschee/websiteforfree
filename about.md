@@ -1,6 +1,4 @@
 ---
-title: About
+title: Over ons
 layout: about
 ---
-
-test
