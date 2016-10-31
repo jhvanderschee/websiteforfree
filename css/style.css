@@ -767,6 +767,14 @@ form label {
   left: 50%;
   background: #17B794;
 }
+.post .article p:first-child {color: #1a1a1a;}
+.post .article p:first-child:first-letter {  
+  font-size: 86px;
+  line-height: 0.95;
+  color: #1a1a1a;
+  float: left;
+  margin-right: 10px;
+}
 .gtco-heading p {
   font-size: 20px;
   line-height: 1.5;
