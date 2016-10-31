@@ -749,12 +749,12 @@ form label {
 .gtco-heading h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: 1.3;
   font-weight: bold;
   color: #000;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   letter-spacing: -1px;
 }
 .gtco-heading h2:before {
