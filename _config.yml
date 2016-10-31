@@ -9,13 +9,12 @@ defaults:
     values:
       layout: "post"
 
-
 permalink: /blog/:year/:month/:day/:title
 
 collections:
   portfolio:
     output: true
-  templates:
+  products:
     output: true
   team:
     output: false

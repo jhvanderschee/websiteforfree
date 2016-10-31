@@ -1,16 +1,19 @@
-	<div id="gtco-products">
+	<div class="gtco-section">
 		<div class="gtco-container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2>Templates</h2>
+					<h2>Kies je eigen stijl</h2>
 					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
 			<div class="row animate-box">
-				<div class="owl-carousel owl-carousel-carousel">
+				<div class="">
 					{% for item in site.products %}
-					<div class="item">
-						<a href="{{ item.url }}"><img src="{{ item.image }}" alt="{{ item.title }}" /></a>
+					<div class="col-md-4 text-center animate-box">
+						<a href="{{ item.url }}">
+						<img src="{{ item.image }}" alt="{{ item.title }}" style="width: 100%;" />
+						<h3>{{ item.title }}</h3>
+						</a>
 					</div>
 					{% endfor %}
 				</div>
