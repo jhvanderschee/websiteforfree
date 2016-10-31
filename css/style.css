@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 500px;
 }
 .gtco-cover.gtco-cover-xs .display-tc {
-  padding-top: 50px;
+  padding-top: 70px;
 }
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-xs {
@@ -572,9 +572,9 @@ form label {
 #gtco-header .display-tc h1,
 #gtco-counter .display-tc h1,
 .gtco-cover .display-tc h1 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size: 59px;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 @media screen and (max-width: 768px) {
   #gtco-header .display-tc h1,
