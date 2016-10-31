@@ -1511,6 +1511,9 @@ form label {
     top: -2em;
   }
 }
+#gtco-features-3 .feature p.price strong,
+#gtco-features-3 .feature p.price b {font-weight: normal; font-size: 40px; display: inline-block; padding-top: 10px;}
+#gtco-features-3 .feature ul {text-align: left; color: rgba(255, 255, 255, 0.7);}
 #gtco-features-3 .feature {
   width: 33.33%;
   float: left;
@@ -1640,6 +1643,7 @@ form label {
   display: flex;
   position: relative;
   float: left;
+  width: 100%;
 }
 
 #gtco-portfolio {
