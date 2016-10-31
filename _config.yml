@@ -12,14 +12,13 @@ defaults:
 
 permalink: /blog/:year/:month/:day/:title
 
-sass:
-  style: compressed
-
 collections:
   portfolio:
     output: true
   templates:
     output: true
+  team:
+    output: false
 
 colorsets: 
   - default
