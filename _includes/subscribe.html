@@ -9,9 +9,8 @@
 			<div class="row animate-box">
 				<div class="col-md-12">
 					<form class="form-inline" method="POST" action="/thankyou.html">
-					
-  						<input type="hidden" name="_to" value="{{ site.data.subscribeform.to }}">
-  						<input type="hidden" name="_cc" value="{{ site.data.subscribeform.cc }}">
+
+  						<input type="hidden" name="_to" value="{{ site.data.settings.subscribe_form_to }}">
   						<input type="text" name="_gotcha" style="display: none;">
 
 						{% for item in site.data.subscribeform %}

@@ -1,6 +1,3 @@
-- to: jhvanderschee@gmail.com
-- cc: joost@vdschee.nl
-
 - name: e-mail
   input_type: email
   placeholder: Uw e-mailadres
