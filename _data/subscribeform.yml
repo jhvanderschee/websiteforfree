@@ -1,0 +1,12 @@
+- to: jhvanderschee@gmail.com
+- cc: joost@vdschee.nl
+
+- name: e-mail
+  input_type: email
+  placeholder: Uw e-mailadres
+- name: naam
+  input_type: text
+  placeholder: Uw naam
+- name: verstuur
+  input_type: submit
+  placeholder: Inschrijven

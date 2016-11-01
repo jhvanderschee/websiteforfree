@@ -1,0 +1,39 @@
+	{% include head.html %}
+
+	<div id="page">
+	{% include navigation.html %}
+	
+	{% include header.html %}
+
+	<div class="gtco-section" style="padding-top: 6em;">
+		<div class="gtco-container">
+
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-6 col-md-offset-3 text-center gtco-heading" style="margin-bottom: 4em;">
+					<h2>{{ page.title }}</h2>
+					<p>{{ page.description }}</p>
+				</div>
+			</div>
+
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-6 article">
+					<a href="{{ page.detail_url }}"><img src="{{ page.image }}" style="max-width: 100%;" /></a>
+				</div>
+				<div class="col-md-5 col-md-offset-1" style="margin-bottom: 4em;">
+					{{ content }}
+
+					<p><br /><a class="btn btn-lg btn-primary" href="/order">Start direct</a>&nbsp;&nbsp; vanaf &euro; 0,- per maand</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	{% include services2.html %}
+
+	{% include subscribe.html %}
+
+	{% include footer.html %}
+	</div>
+	
+	{% include foot.html %}

@@ -8,6 +8,11 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
 
 permalink: /blog/:year/:month/:day/:title
 
@@ -22,3 +27,9 @@ collections:
 colorsets: 
   - default
   - orange
+
+input_types:
+  - text
+  - email
+  - number
+  - submit
