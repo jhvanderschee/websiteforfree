@@ -1,6 +1,6 @@
 ---
 title: Joost van der Schee
-image: /images/person_2.jpg
+image: /uploads/person_2.jpg
 function: Architect
 ---
 

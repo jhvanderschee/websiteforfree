@@ -1,6 +1,6 @@
 ---
 title: Benjamin van Rossum
-image: /images/person_1.jpg
+image: /uploads/person_1.jpg
 function: Bussiness Developer
 ---
 

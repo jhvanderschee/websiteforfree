@@ -5,10 +5,30 @@
 	
 	{% include header.html %}
 
-	{{ content }}
+	<div class="gtco-section" style="padding-top: 6em;">
+		<div class="gtco-container">
+
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-6 col-md-offset-3 text-center gtco-heading" style="margin-bottom: 4em;">
+					<h2>{{ page.title }}</h2>
+				</div>
+			</div>
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-8 col-md-offset-2 article">
+					<img src="{{ page.image }}" style="max-width: 100%;" />
+				</div>
+			</div>
+			<div class="row animate-box fadeInUp animated-fast">
+				<div class="col-md-8 col-md-offset-2 article">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	{% include subscribe.html %}
-	
+
 	{% include footer.html %}
 	</div>
 	

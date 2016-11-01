@@ -10,12 +10,13 @@
 
 			<div class="row">
 
+				{% for item in site.team %}
 				<div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
 					<div class="gtco-staff">
-						<img src="images/person_1.jpg" alt="Free HTML5 Templates by gettemplates.co">
-						<h3>Jean Smith</h3>
-						<strong class="role">Web Designer</strong>
-						<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
+						<img src="{{ item.image }}" alt="{{ item.title }}">
+						<h3>{{ item.title }}</h3>
+						<strong class="role">{{ item.function }}</strong>
+						{{ item.content }}
 						<ul class="gtco-social-icons">
 							<li><a href="#"><i class="icon-facebook"></i></a></li>
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -24,83 +25,8 @@
 						</ul>
 					</div>
 				</div>
+				{% endfor %}
 
-				<div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
-					<div class="gtco-staff">
-						<img src="images/person_2.jpg" alt="Free HTML5 Templates by gettemplates.co">
-						<h3>Hush Raven</h3>
-						<strong class="role">Front-end Developer</strong>
-						<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-						<ul class="gtco-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="clearfix visible-sm-block"></div>
-				<div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
-					<div class="gtco-staff">
-						<img src="images/person_3.jpg" alt="Free HTML5 Templates by gettemplates.co">
-						<h3>Alex King</h3>
-						<strong class="role">Back-end Developer</strong>
-						<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-						<ul class="gtco-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="clearfix visible-lg-block visible-md-block"></div>
-			
-				<div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
-					<div class="gtco-staff">
-						<img src="images/person_1.jpg" alt="Free HTML5 Templates by gettemplates.co">
-						<h3>Jean Smith</h3>
-						<strong class="role">Web Designer</strong>
-						<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-						<ul class="gtco-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="clearfix visible-sm-block"></div>
-				<div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
-					<div class="gtco-staff">
-						<img src="images/person_2.jpg" alt="Free HTML5 Templates by gettemplates.co">
-						<h3>Hush Raven</h3>
-						<strong class="role">Front-end Developer</strong>
-						<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-						<ul class="gtco-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeIn">
-					<div class="gtco-staff">
-						<img src="images/person_3.jpg" alt="Free HTML5 Templates by gettemplates.co">
-						<h3>Alex King</h3>
-						<strong class="role">Back-end Developer</strong>
-						<p>Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
-						<ul class="gtco-social-icons">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-						</ul>
-					</div>
-				</div>
 				<div class="clearfix visible-sm-block"></div>
 			</div>
 

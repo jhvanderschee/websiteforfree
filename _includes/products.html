@@ -6,14 +6,38 @@
 					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
+
+			<!--
 			<div class="row animate-box">
 				<div class="owl-carousel owl-carousel-carousel">
-					{% for item in site.products %}
+					{% assign sorted = site.products | sort:"order_num" %}
+					{% for item in sorted %}
+					{% if item.active == true %}
 					<div class="item">
 						<a href="{{ item.url }}"><img src="{{ item.image }}" alt="{{ item.title }}" /></a>
 					</div>
+					{% endif %}
 					{% endfor %}
 				</div>
 			</div>
+			-->
+
+			<div class="row animate-box">
+				<div class="">
+					{% assign sorted = site.products | sort:"order_num" %}
+					{% for item in sorted %}
+					{% if item.active == true %}
+					<div class="col-md-6 text-center animate-box" style="padding: 30px 60px;">
+						<a href="{{ item.url }}">
+						<img src="{{ item.image }}" alt="{{ item.title }}" style="width: 100%;" />
+						<h3>{{ item.title }}</h3>
+						</a>
+					</div>
+					{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+
+
 		</div>
 	</div>

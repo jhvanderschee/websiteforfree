@@ -1,6 +1,6 @@
 ---
 title: Sander
-image: /images/person_3.jpg
+image: /uploads/person_3.jpg
 function: Account Manager
 ---
 
