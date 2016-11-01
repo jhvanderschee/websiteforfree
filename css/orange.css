@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, figure {color: #333333;}
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {background: #f16e05;}
 .btn-white {color: #333333;}
 .btn-white.btn-outline:hover, .btn-white.btn-outline:focus, .btn-white.btn-outline:active {color: #333333;}
-.form-control:active, .form-control:focus {border-color: #333333;}
+.form-control:active, .form-control:focus {border-color: #f16e05;}
 .gtco-nav .gtco-contact ul li a i {color: #333333;}
 #gtco-features-3 .feature {background: #333333;}
 #gtco-features-3 .feature .icon {background: #444444;}
