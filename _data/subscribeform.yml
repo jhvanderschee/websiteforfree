@@ -10,5 +10,5 @@ form_fields:
     required: true
   - name: verstuur
     input_type: submit
-    placeholder: Inschrijven
+    placeholder: Aanmelden
     required: true
