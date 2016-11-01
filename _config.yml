@@ -32,5 +32,7 @@ input_types:
   - text
   - textarea
   - email
+  - checkbox
+  - radio
   - number
   - submit
