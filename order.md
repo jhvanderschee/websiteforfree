@@ -1,4 +1,4 @@
 ---
 title: Start direct
-layout: contact
+layout: order
 ---

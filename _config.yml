@@ -30,6 +30,7 @@ colorsets:
 
 input_types:
   - text
+  - textarea
   - email
   - number
   - submit

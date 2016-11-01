@@ -4,18 +4,18 @@ form_fields:
     input_type: text
     placeholder: Uw naam
     required: true
+  - name: bedrijfsnaam
+    input_type: text
+    placeholder: Uw bedrijfsnaam
+    required: false
   - name: e-mail
     input_type: email
     placeholder: Uw e-mailadres
     required: true
-  - name: onderwerp
+  - name: domeinnaam
     input_type: text
-    placeholder: Het onderwerp van uw bericht
-    required: true
-  - name: bericht
-    input_type: textarea
-    placeholder: Uw bericht
-    required: true
+    placeholder: Uw domeinnaam
+    required: false
   - name: verstuur
     input_type: submit
     placeholder: Versturen

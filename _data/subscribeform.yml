@@ -3,9 +3,12 @@ form_fields:
   - name: e-mail
     input_type: email
     placeholder: Uw e-mailadres
+    required: true
   - name: naam
     input_type: text
     placeholder: Uw naam
+    required: true
   - name: verstuur
     input_type: submit
     placeholder: Inschrijven
+    required: true

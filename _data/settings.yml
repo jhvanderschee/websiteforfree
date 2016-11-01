@@ -4,4 +4,19 @@ logo_text: 'WEBSITE FOR FREE <em>.</em>'
 logo_image: /uploads/websiteforfreelogo.png
 colorset: orange
 header_image: /uploads/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg
-
+has_home: true
+has_about: true
+has_pricing: true
+has_services: true
+has_products: true
+has_portfolio: true
+has_blog: true
+has_contact: true
+home_name: Home
+about_name: Over ons
+pricing_name: Prijzen
+services_name: Diensten
+products_name: Templates
+portfolio_name: Portfolio
+blog_name: Blog
+contact_name: Contact

@@ -11,7 +11,5 @@ It is built with features like drop-down menu, off-canvas menu on mobile, smooth
 
 - Two color variants (orange & default)
 - Supports blogging
-- Conversion minded
-- Adjustable contact form
-- Adjustable background image
+- Supports products and portfolio
 - Used by [websiteforfree.nl](http://websiteforfree.nl)

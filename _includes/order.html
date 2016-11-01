@@ -1,16 +1,11 @@
 	<div class="gtco-section">
 		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Heb je nog vragen?</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
 			<div class="row row-pb-md">
 				<div class="col-md-6 animate-box">
+					<h3 class="editable">Vul dit in...</h3>
 					<form method="POST" action="/thankyou.html">
 
-						{% for item in site.data.contactform.form_fields %}
+						{% for item in site.data.orderform.form_fields %}
 						{% if item.input_type == 'text' %}
 						<div class="row form-group">
 							<div class="col-md-12">
@@ -52,12 +47,8 @@
 				<div class="col-md-5 col-md-push-1 animate-box">
 					
 					<div class="gtco-contact-info">
-						<ul>
-							<li class="address editable">198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-							<li class="phone"><a href="tel:{{ site.data.social.phone }}">{{ site.data.social.phone }}</a></li>
-							<li class="email"><a href="mailto:{{ site.data.social.email }}">{{ site.data.social.email }}</a></li>
-							<li class="url"><a href="{{ site.data.settings.url }}">{{ site.data.settings.url }}</a></li>
-						</ul>
+						<h3 class="editable">Bestelproces</h3>
+						<div class="editable"><p>U bestelt hiernaast. Vervolgens...</p></div>
 					</div>
 
 

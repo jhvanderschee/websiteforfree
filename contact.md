@@ -1,4 +1,4 @@
 ---
-title: Get in touch
+title: Contact
 layout: contact
 ---

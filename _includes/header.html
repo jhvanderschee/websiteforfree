@@ -5,8 +5,11 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc">
-							<h1 class="animate-box editable" data-animate-effect="fadeInUp">{% if page.layout == 'post'%}Blog{% else %}{{ page.title }}{% endif %}</h1>
-							<h2 class="animate-box editable" data-animate-effect="fadeInUp">Een agency-kwaliteit website voor <A href="/order">bijna niets!</a></h2>
+							<h1 class="animate-box editable" data-animate-effect="fadeInUp">
+							{% if page.layout == 'post' %}{{ site.data.settings.blog_name }}{% endif %}
+							{% if page.layout == 'product' %}{{ site.data.settings.products_name }}{% endif %}
+							{% if page.layout != 'product' and page.layout != 'post' %}{{ page.title }}{% endif %}</h1>
+							<h2 class="animate-box editable" data-animate-effect="fadeInUp">Een agency-kwaliteit website voor <A href="/pricing">bijna niets!</a></h2>
 						</div>
 					</div>
 				</div>
