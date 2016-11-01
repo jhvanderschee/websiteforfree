@@ -16,6 +16,10 @@ form_fields:
     input_type: text
     placeholder: Uw domeinnaam
     required: false
+  - name: spacer
+    input_type: html
+    placeholder: '<br />'
+    required: false
   - name: abonnement
     input_type: radio
     placeholder: 'FREE: &euro; 0,- per maand'
@@ -28,6 +32,10 @@ form_fields:
     input_type: radio
     placeholder: 'GOLD: &euro; 20,- per maand'
     required: true
+  - name: spacer
+    input_type: html
+    placeholder: '<br />'
+    required: false
   - name: opmerkingen
     input_type: textarea
     placeholder: Opmerkingen

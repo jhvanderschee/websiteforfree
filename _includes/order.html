@@ -56,6 +56,10 @@
 						</div>
 						{% endif %}
 
+						{% if item.input_type == 'html' %}
+						{{ item.placeholder }}
+						{% endif %}
+
 						{% if item.input_type == 'submit' %}
 						<div class="form-group">
 							<input type="{{ item.input_type }}" value="{{ item.placeholder }}" class="btn btn-primary btn-lg" />
@@ -70,8 +74,8 @@
 				<div class="col-md-5 col-md-push-1 animate-box">
 					
 					<div class="gtco-contact-info">
-						<h3 class="editable">Bestelproces</h3>
-						<div class="editable"><p>U vult het formulier hiernaast in. Vervolgens zetten wij voor u uw website klaar. Deze zal op een ontwikkel-URL voor u beschikbaar zijn.</p><p>Heeft u gekozen voor het het SILVER of GOLD pakket? Dan ontvangt u per ommegaande van ons een rekening. Zodra deze betaald is registreren en/of koppelen wij de domeinnaam.</p></div>
+						<h3 class="editable">Het het werkt</h3>
+						<div class="editable"><p>U vult het formulier hiernaast in. Vervolgens zetten wij voor u uw website klaar. Deze zal op een ontwikkel-URL voor u beschikbaar zijn.</p><p>Heeft u gekozen voor het het SILVER of GOLD pakket? Dan ontvangt u per ommegaande van ons een rekening. Zodra deze betaald is registreren en/of koppelen wij de domeinnaam.</p><p>Vul het formulier in en start direct!</p></div>
 					</div>
 
 

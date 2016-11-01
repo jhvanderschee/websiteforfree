@@ -41,6 +41,30 @@
 						</div>
 						{% endif %}
 
+						{% if item.input_type == 'radio' %}
+						<div class="row">
+							<div class="col-md-12">
+								<div class="radio">
+	  								<label><input type="radio" name="{{ item.name }}" value="{{ item.placeholder }}">{{ item.placeholder }}</label>
+								</div>
+							</div>
+						</div>
+						{% endif %}
+
+						{% if item.input_type == 'checkbox' %}
+						<div class="row">
+							<div class="col-md-12">
+								<div class="checkbox">
+	  								<label><input type="checkbox" name="{{ item.name }}" value="{{ item.placeholder }}">{{ item.placeholder }}</label>
+								</div>
+							</div>
+						</div>
+						{% endif %}
+
+						{% if item.input_type == 'html' %}
+						{{ item.placeholder }}
+						{% endif %}
+
 						{% if item.input_type == 'submit' %}
 						<div class="form-group">
 							<input type="{{ item.input_type }}" value="{{ item.placeholder }}" class="btn btn-primary btn-lg" />
