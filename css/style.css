@@ -1511,6 +1511,9 @@ form label {
     top: -2em;
   }
 }
+.gtco-heading.price {margin: 22px 0 0;}
+.gtco-heading.price h2 {text-transform: none;}
+.gtco-heading.price h2:before {content: none;}
 #gtco-features-3 .feature p.price strong,
 #gtco-features-3 .feature p.price b {font-weight: normal; font-size: 50px; display: inline-block; color: white;}
 #gtco-features-3 .feature p.price {padding: 10px 0 5px;}

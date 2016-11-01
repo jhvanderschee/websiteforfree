@@ -2,6 +2,7 @@
 title: Aesthetic
 image: /uploads/aesthetic_feature_img.png
 detail_url: http://gettemplates.co/demos/aesthetic/
+price: 'va. &euro; 0,- p/m'
 description: 'Aesthetic is a free website template using bootstrap perfect for portfolio, agency, landing pages, etc. '
 active: true
 order_num: 1
