@@ -1938,3 +1938,4 @@ form label {
     bottom: 8px;
 }
 .radio input[type="radio"], .checkbox input[type="checkbox"] {margin: 7px 0 0 -20px;}
+.form-group input[type="submit"] {margin-top: 15px;}
