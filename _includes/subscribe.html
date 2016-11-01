@@ -14,11 +14,14 @@
   						<input type="text" name="_gotcha" style="display: none;">
 
 						{% for item in site.data.subscribeform.form_fields %}
+						{% if item.required %}{% assign requiredstar = '*' %}{% endif %}
+						{% if item.required %}{% assign requiredtext = 'required' %}{% endif %}
+
 						{% if item.input_type == 'email' %}
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="{{ item.name }}" class="sr-only">{{ item.name }}</label>
-								<input type="{{ item.input_type }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" />
+								<input type="{{ item.input_type }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }} />
 							</div>
 						</div>
 						{% endif %}
@@ -26,7 +29,7 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="{{ item.name }}" class="sr-only">{{ item.name }}</label>
-								<input type="{{ item.input_type }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" />
+								<input type="{{ item.input_type }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }} />
 							</div>
 						</div>
 						{% endif %}
@@ -34,7 +37,7 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="{{ item.name }}" class="sr-only">{{ item.name }}</label>
-								<input type="{{ item.input_type }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" />
+								<input type="{{ item.input_type }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }} />
 							</div>
 						</div>
 						{% endif %}
