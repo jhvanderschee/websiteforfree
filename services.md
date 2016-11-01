@@ -1,4 +1,4 @@
 ---
-title: Services
+title: Diensten
 layout: services
 ---
