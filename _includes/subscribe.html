@@ -10,10 +10,10 @@
 				<div class="col-md-12">
 					<form class="form-inline" method="POST" action="/thankyou.html">
 
-  						<input type="hidden" name="_to" value="{{ site.data.settings.subscribe_form_to }}">
+  						<input type="hidden" name="_to" value="{{ site.data.subscribeform.subscribe_form_to }}">
   						<input type="text" name="_gotcha" style="display: none;">
 
-						{% for item in site.data.subscribeform %}
+						{% for item in site.data.subscribeform.form_fields %}
 						{% if item.input_type == 'email' %}
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">

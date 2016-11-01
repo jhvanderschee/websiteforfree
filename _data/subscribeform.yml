@@ -1,9 +1,11 @@
-- name: e-mail
-  input_type: email
-  placeholder: Uw e-mailadres
-- name: naam
-  input_type: text
-  placeholder: Uw naam
-- name: verstuur
-  input_type: submit
-  placeholder: Inschrijven
+subscribe_form_to: jhvanderschee@gmail.com
+form_fields:
+  - name: e-mail
+    input_type: email
+    placeholder: Uw e-mailadres
+  - name: naam
+    input_type: text
+    placeholder: Uw naam
+  - name: verstuur
+    input_type: submit
+    placeholder: Inschrijven
