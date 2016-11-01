@@ -11,8 +11,8 @@
 					<form method="POST" action="/thankyou.html">
 
 						{% for item in site.data.contactform.form_fields %}
-						{% if item.required %}{% assign requiredstar = '*' %}{% endif %}
-						{% if item.required %}{% assign requiredtext = 'required' %}{% endif %}
+						{% if item.required %}{% assign requiredstar = '*' %}{% else %}{% assign requiredstar = '' %}{% endif %}
+						{% if item.required %}{% assign requiredtext = 'required' %}{% else %}{% assign requiredtext = '' %}{% endif %}
 
 						{% if item.input_type == 'text' %}
 						<div class="row form-group">

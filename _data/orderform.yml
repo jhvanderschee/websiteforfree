@@ -16,6 +16,26 @@ form_fields:
     input_type: text
     placeholder: Uw domeinnaam
     required: false
+  - name: abonnement
+    input_type: radio
+    placeholder: 'FREE: &euro; 0,- per maand'
+    required: true
+  - name: abonnement
+    input_type: radio
+    placeholder: 'SILVER: &euro; 10,- per maand'
+    required: true
+  - name: abonnement
+    input_type: radio
+    placeholder: 'GOLD: &euro; 20,- per maand'
+    required: true
+  - name: opmerkingen
+    input_type: textarea
+    placeholder: Opmerkingen
+    required: false
+  - name: voorwaarden
+    input_type: checkbox
+    placeholder: Ik ga akkoord met de algemene voorwaarden
+    required: true
   - name: verstuur
     input_type: submit
     placeholder: Versturen

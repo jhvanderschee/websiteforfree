@@ -6,14 +6,14 @@
 					<form method="POST" action="/thankyou.html">
 
 						{% for item in site.data.orderform.form_fields %}
-						{% if item.required %}{% assign requiredstar = '*' %}{% endif %}
-						{% if item.required %}{% assign requiredtext = 'required' %}{% endif %}
+						{% if item.required %}{% assign requiredstar = '*' %}{% else %}{% assign requiredstar = '' %}{% endif %}
+						{% if item.required %}{% assign requiredtext = 'required' %}{% else %}{% assign requiredtext = '' %}{% endif %}
 
 						{% if item.input_type == 'text' %}
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="{{ item.name }}">{{ item.name }}</label>
-								<input type="{{ item.input_type }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }}></input>
+								<input type="{{ item.input_type }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }} />
 							</div>
 						</div>
 						{% endif %}
@@ -22,7 +22,7 @@
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="{{ item.name }}">{{ item.name }}</label>
-								<input type="{{ item.input_type }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }}></input>
+								<input type="{{ item.input_type }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }} />
 							</div>
 						</div>
 						{% endif %}
@@ -32,6 +32,26 @@
 							<div class="col-md-12">
 								<label class="sr-only" for="{{ item.name }}">{{ item.name }}</label>
 								<textarea name="{{ item.name }}" id="{{ item.name }}" cols="30" rows="10" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }}></textarea>
+							</div>
+						</div>
+						{% endif %}
+
+						{% if item.input_type == 'radio' %}
+						<div class="row">
+							<div class="col-md-12">
+								<div class="radio">
+	  								<label><input type="radio" name="{{ item.name }}" value="{{ item.placeholder }}">{{ item.placeholder }}</label>
+								</div>
+							</div>
+						</div>
+						{% endif %}
+
+						{% if item.input_type == 'checkbox' %}
+						<div class="row">
+							<div class="col-md-12">
+								<div class="checkbox">
+	  								<label><input type="checkbox" name="{{ item.name }}" value="{{ item.placeholder }}">{{ item.placeholder }}</label>
+								</div>
 							</div>
 						</div>
 						{% endif %}

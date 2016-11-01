@@ -1932,5 +1932,9 @@ form label {
   background: none;
   border: 2px solid #17B794;
 }
-
-/*# sourceMappingURL=style.css.map */
+.radio, .checkbox {margin: 5px 0;}
+.radio label, .checkbox label {
+    position: relative;
+    bottom: 8px;
+}
+.radio input[type="radio"], .checkbox input[type="checkbox"] {margin: 7px 0 0 -20px;}

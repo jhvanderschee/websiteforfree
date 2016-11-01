@@ -14,8 +14,8 @@
   						<input type="text" name="_gotcha" style="display: none;">
 
 						{% for item in site.data.subscribeform.form_fields %}
-						{% if item.required %}{% assign requiredstar = '*' %}{% endif %}
-						{% if item.required %}{% assign requiredtext = 'required' %}{% endif %}
+						{% if item.required %}{% assign requiredstar = '*' %}{% else %}{% assign requiredstar = '' %}{% endif %}
+						{% if item.required %}{% assign requiredtext = 'required' %}{% else %}{% assign requiredtext = '' %}{% endif %}
 
 						{% if item.input_type == 'email' %}
 						<div class="col-md-4 col-sm-4">
