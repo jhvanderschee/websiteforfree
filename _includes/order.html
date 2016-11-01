@@ -13,7 +13,7 @@
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="{{ item.name }}">{{ item.name }}</label>
-								<input type="{{ item.input_type }}" name="{{ item.name }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }} >
+								{% if requiredtext == 'required' %}<input type="{{ item.input_type }}" name="{{ item.name }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" required>{% else %}<input type="{{ item.input_type }}" name="{{ item.name }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}">{% endif %}
 							</div>
 						</div>
 						{% endif %}
@@ -22,7 +22,7 @@
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="{{ item.name }}">{{ item.name }}</label>
-								<input type="{{ item.input_type }}" name="{{ item.name }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" {{ requiredtext }} >
+								{% if requiredtext == 'required' %}<input type="{{ item.input_type }}" name="{{ item.name }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}" required>{% else %}<input type="{{ item.input_type }}" name="{{ item.name }}" id="{{ item.name }}" class="form-control" placeholder="{{ item.placeholder }}{{ requiredstar }}">{% endif %}
 							</div>
 						</div>
 						{% endif %}
@@ -40,7 +40,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="radio">
-	  								<label><input type="radio" name="{{ item.name }}" value="{{ item.placeholder }}">{{ item.placeholder }}</label>
+	  								<label>{% if requiredtext == 'required' %}<input type="radio" name="{{ item.name }}" value="{{ item.placeholder }}" required>{% else %}<input type="radio" name="{{ item.name }}" value="{{ item.placeholder }}">{% endif %}{{ item.placeholder }}</label>
 								</div>
 							</div>
 						</div>
@@ -50,7 +50,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="checkbox">
-	  								<label><input type="checkbox" name="{{ item.name }}" value="{{ item.placeholder }}">{{ item.placeholder }}</label>
+	  								<label>{% if requiredtext == 'required' %}<input type="checkbox" name="{{ item.name }}" value="{{ item.placeholder }}" required>{% else %}<input type="checkbox" name="{{ item.name }}" value="{{ item.placeholder }}">{% endif %}{{ item.placeholder }}</label>
 								</div>
 							</div>
 						</div>
