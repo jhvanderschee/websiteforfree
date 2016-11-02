@@ -43,7 +43,7 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/{% if site.data.settings.colorset %}{{ site.data.settings.colorset }}{% endif %}.css">
+	{% if site.data.settings.colorset and site.data.settings.colorset != 'default' %}<link rel="stylesheet" href="/css/{{ site.data.settings.colorset }}.css">{% endif %}
 
 	<!-- Modernizr JS -->
 	<script src="/js/modernizr-2.6.2.min.js"></script>
