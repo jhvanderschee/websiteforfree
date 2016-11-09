@@ -9,22 +9,25 @@
 		<div class="gtco-container">
 
 			<div class="row animate-box fadeInUp animated-fast">
-				<div class="col-md-6 col-md-offset-3 text-center gtco-heading" style="margin-bottom: 4em;">
-					<h2>{{ page.title }}</h2>
-					<p>{{ page.description }}</p>
-				</div>
-			</div>
-
-			<div class="row animate-box fadeInUp animated-fast">
 				<div class="col-md-6 article">
 					<img src="{{ page.image }}" style="max-width: 100%;" />
 				</div>
 				<div class="col-md-5 col-md-offset-1" style="margin-bottom: 4em;">
-					{{ content }}
 
-					<div class="gtco-heading price"><h2>{{ page.price }}</h2></div>
+				<div class="gtco-heading product" style="margin-bottom: 1.4em;">
+					<h1 style="margin-bottom: 2px;">{{ page.title }}</h1>
+					<p>{{ page.price }}</p>
+				</div>
+				
+
+
+				<p style="padding: 3px 0;"><a class="btn btn-primary" href="/order#{{ page.url }}">Start direct</a></p>
+
+
+				{{ content }}
+
 					
-					<p><a class="btn btn-lg btn-primary" href="/order#{{ page.url }}">Start direct</a></p>
+
 				</div>
 
 			</div>

@@ -1,4 +1,4 @@
 ---
-title: Pricing & Plans
+title: Prijzen
 layout: pricing
 ---

@@ -19,15 +19,7 @@
 						{% if site.data.settings.has_home %}<li {% if page.url == '/' %}class="active"{% endif %}><a href="/index.html">{{ site.data.settings.home_name }}</a></li>{% endif %}
 						{% if site.data.settings.has_about %}<li {% if page.url == '/about' %}class="active"{% endif %}><a href="/about.html">{{ site.data.settings.about_name }}</a></li>{% endif %}
 						{% if site.data.settings.has_pricing %}<li {% if page.url == '/pricing' %}class="active"{% endif %}><a href="/pricing.html">{{ site.data.settings.pricing_name }}</a></li>{% endif %}
-						{% if site.data.settings.has_services %}<li class="has-dropdown">
-							<a href="/services.html">{{ site.data.settings.services_name }}</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>{% endif %}
+						{% if site.data.settings.has_services %}<li {% if page.url == '/services' %}class="active"{% endif %}><a href="/services.html">{{ site.data.settings.services_name }}</a></li>{% endif %}
 						{% if site.data.settings.has_products %}<li {% if page.url == '/products' %}class="active"{% endif %}><a href="/products.html">{{ site.data.settings.products_name }}</a></li>{% endif %}
 						{% if site.data.settings.has_portfolio %}<li {% if page.url == '/portfolio' %}class="active"{% endif %}><a href="/portfolio.html">{{ site.data.settings.portfolio_name }}</a></li>{% endif %}
 						{% if site.data.settings.has_blog %}<li {% if page.url == '/blog' or page.layout == 'post' %}class="active"{% endif %}><a href="/blog.html">{{ site.data.settings.blog_name }}</a></li>{% endif %}

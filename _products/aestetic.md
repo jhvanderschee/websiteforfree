@@ -2,12 +2,10 @@
 title: Aesthetic
 image: /uploads/aesthetic_feature_img.png
 price: 'va. &euro; 0,- p/m'
-description: "Aesthetic is een modern website template dat gebruik maakt van bootstrap. Het is perfect voor portfolio's, agencies, landing pages, etc."
 active: true
 order_num: 1
 ---
 
-Aesthetic is egemaakt door onze vrienden van GetTemplates.co. Het template heeft twee kleurvarianten (orange & default), het ondersteund blogging, producten en een portfolio. 
+Aesthetic is gemaakt door onze vrienden van GetTemplates.co. Het template heeft twee kleurvarianten (orange & default), het ondersteund blogging, producten en een portfolio. Deze site maakt zelf ook gebruik van dit template... dus kijk eens kritisch rond of dit iets voor jou zou kunnen zijn. 
 
-- [Template demo](http://gettemplates.co/demos/aesthetic/)
-- [Example 1](http://nice-meerkat1.cloudvent.net/)
+Bekijk de [template demo](http://gettemplates.co/demos/aesthetic/) of een [voorbeeldsite](http://nice-meerkat1.cloudvent.net/).

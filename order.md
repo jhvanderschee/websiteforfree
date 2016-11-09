@@ -1,4 +1,4 @@
 ---
-title: Start direct
+title: Bestellen
 layout: order
 ---

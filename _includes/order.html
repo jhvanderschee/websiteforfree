@@ -2,9 +2,11 @@
 		<div class="gtco-container">
 			<div class="row row-pb-md">
 
-				<div class="col-md-5 animate-box fadeInUp animated-fast">
+				<div class="col-md-push-6 col-md-5 col-md-push-1 animate-box fadeInUp animated-fast">
 					
 					<div class="gtco-contact-info">
+						
+						<h3 class="editable">Gekozen template</h3>
 
 						{% assign sorted = site.products | sort:"order_num" %}
 						{% for item in sorted %}
@@ -13,8 +15,6 @@
 							<img src="{{ item.image }}" alt="{{ item.title }}" style="width: 100%;" />
 							<h3 style="margin-bottom: 0;">{{ item.title }}</h3>
 							<p>{{ item.price }}</p>
-
-							<p>{{ item.description }}</p>
 
 						</div>
 						{% endif %}
@@ -25,7 +25,7 @@
 
 				</div>
 
-				<div class="col-md-6 col-md-push-1 animate-box fadeInUp animated-fast">
+				<div class="col-md-pull-6 col-md-6 animate-box fadeInUp animated-fast">
 					
 					<h3 class="editable">Vul onderstaande gegevens in</h3>
 					<form method="POST" action="/thankyou.html">
@@ -97,6 +97,8 @@
   						<input type="text" name="_gotcha" style="display: none;">
 					</form>		
 				</div>
+
+
 
 			</div>
 			</div>

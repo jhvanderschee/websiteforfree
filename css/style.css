@@ -767,6 +767,7 @@ form label {
   left: 50%;
   background: #17B794;
 }
+.gtco-heading.product h2:before {margin-left: 0; left: 0;}
 .post .article p:first-child {color: #1a1a1a;}
 .post .article p:first-child:first-letter {  
   font-size: 86px;
