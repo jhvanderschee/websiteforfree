@@ -5,12 +5,12 @@
 	
 	{% include header.html %}
 
-	<div class="gtco-section" style="padding-top: 6em;">
+	<div class="gtco-section">
 		<div class="gtco-container">
 
 			<div class="row animate-box fadeInUp animated-fast">
 				<div class="col-md-6 article">
-					<img src="{{ page.image }}" style="max-width: 100%;" />
+					<img src="{{ page.image }}" style="max-width: 100%;" /><br class="visible-xs visible-sm" /><br class="visible-xs visible-sm" />
 				</div>
 				<div class="col-md-5 col-md-offset-1" style="margin-bottom: 4em;">
 
@@ -21,7 +21,7 @@
 				
 
 
-				<p style="padding: 3px 0;"><a class="btn btn-primary" href="/order#{{ page.url }}">Start direct</a></p>
+				<p><a class="btn btn-primary" href="/order#{{ page.url }}">Start direct</a></p>
 
 
 				{{ content }}

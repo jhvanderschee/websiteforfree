@@ -6,7 +6,7 @@
 					
 					<div class="gtco-contact-info">
 						
-						<h3 class="editable">Gekozen template</h3>
+						<h3 class="editable">Gekozen template:</h3>
 
 						{% assign sorted = site.products | sort:"order_num" %}
 						{% for item in sorted %}
@@ -27,7 +27,7 @@
 
 				<div class="col-md-pull-6 col-md-6 animate-box fadeInUp animated-fast">
 					
-					<h3 class="editable">Vul onderstaande gegevens in</h3>
+					<h3 class="editable">Vul onderstaande gegevens in:</h3>
 					<form method="POST" action="/thankyou.html">
 
 						{% for item in site.data.orderform.form_fields %}
