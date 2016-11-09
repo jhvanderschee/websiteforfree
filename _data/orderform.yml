@@ -46,5 +46,5 @@ form_fields:
     required: true
   - name: verstuur
     input_type: submit
-    placeholder: Versturen
+    placeholder: Start direct
     required: true

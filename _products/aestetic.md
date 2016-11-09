@@ -1,16 +1,13 @@
 ---
 title: Aesthetic
 image: /uploads/aesthetic_feature_img.png
-detail_url: http://gettemplates.co/demos/aesthetic/
 price: 'va. &euro; 0,- p/m'
-description: 'Aesthetic is a free website template using bootstrap perfect for portfolio, agency, landing pages, etc. '
+description: "Aesthetic is een modern website template dat gebruik maakt van bootstrap. Het is perfect voor portfolio's, agencies, landing pages, etc."
 active: true
 order_num: 1
 ---
 
-It is built with features like drop-down menu, off-canvas menu on mobile, smooth animation, carousel, jQuery counter and many more. Built with the latest technology in mind such as HTML5, CSS3, Sass, and jQuery. This template is made by our friends at [GetTemplates.co](http://GetTemplates.co).
+Aesthetic is egemaakt door onze vrienden van GetTemplates.co. Het template heeft twee kleurvarianten (orange & default), het ondersteund blogging, producten en een portfolio. 
 
-- Two color variants (orange & default)
-- Supports blogging
-- Supports products and portfolio
-- Used by [websiteforfree.nl](http://websiteforfree.nl)
+- [Template demo](http://gettemplates.co/demos/aesthetic/)
+- [Example 1](http://nice-meerkat1.cloudvent.net/)

@@ -28,7 +28,7 @@
 								<li><a href="#">API</a></li>
 							</ul>
 						</li>{% endif %}
-						{% if site.data.settings.has_products %}<li {% if page.url == '/templates' %}class="active"{% endif %}><a href="/templates.html">{{ site.data.settings.products_name }}</a></li>{% endif %}
+						{% if site.data.settings.has_products %}<li {% if page.url == '/products' %}class="active"{% endif %}><a href="/products.html">{{ site.data.settings.products_name }}</a></li>{% endif %}
 						{% if site.data.settings.has_portfolio %}<li {% if page.url == '/portfolio' %}class="active"{% endif %}><a href="/portfolio.html">{{ site.data.settings.portfolio_name }}</a></li>{% endif %}
 						{% if site.data.settings.has_blog %}<li {% if page.url == '/blog' or page.layout == 'post' %}class="active"{% endif %}><a href="/blog.html">{{ site.data.settings.blog_name }}</a></li>{% endif %}
 						{% if site.data.settings.has_contact %}<li {% if page.url == '/contact' %}class="active"{% endif %}><a href="/contact.html">{{ site.data.settings.contact_name }}</a></li>{% endif %}

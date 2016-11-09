@@ -17,13 +17,14 @@
 
 			<div class="row animate-box fadeInUp animated-fast">
 				<div class="col-md-6 article">
-					<a href="{{ page.detail_url }}"><img src="{{ page.image }}" style="max-width: 100%;" /></a>
+					<img src="{{ page.image }}" style="max-width: 100%;" />
 				</div>
 				<div class="col-md-5 col-md-offset-1" style="margin-bottom: 4em;">
 					{{ content }}
 
 					<div class="gtco-heading price"><h2>{{ page.price }}</h2></div>
-					<p><a class="btn btn-lg btn-primary" href="/order">Start direct</a></p>
+					
+					<p><a class="btn btn-lg btn-primary" href="/order#{{ page.url }}">Start direct</a></p>
 				</div>
 
 			</div>
