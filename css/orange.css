@@ -39,8 +39,10 @@ h1, h2, h3, h4, h5, h6, figure {color: #333333;}
 #gtco-features-3 .feature.feature-2:after {background: #393939;}
 #gtco-features-3 .feature.feature-3 {background: #333333;}
 #gtco-features-3 .feature.feature-3 .icon {background: #444444;}
+
 #gtco-portfolio {background: #333333;}
 #gtco-portfolio-list li a.color-1:before {background: rgba(55, 55, 55, 0.8);}
+#gtco-portfolio-list li:hover a.color-1:before,
 #gtco-portfolio-list li a.color-1:hover:before {background: rgba(241, 110, 5, 0.8);}
 #gtco-portfolio-list li a.color-2:before {background: rgba(55, 55, 55, 0.8);}
 #gtco-portfolio-list li a.color-2:hover:before {background: rgba(241, 110, 5, 0.8);}

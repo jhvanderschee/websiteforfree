@@ -1,7 +1,7 @@
 ---
-title: Using the Themify and Font Awesome Icons
-image: /uploads/person_1.jpg
-description: "Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7!"
+title: Features updated
+image: /uploads/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg
+description: "The Aestetic template now enable a webshop style functionality. Morbi non tortor eu quam faucibus dapibus ac nec libero."
 ---
 
 Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7 - available to the public, 100% FREE! You may use or distribute it for any purpose, whether personal or commercial. This icon set is a must have tool for web designers and developers.
