@@ -9,7 +9,7 @@ has_about: true
 has_pricing: true
 has_services: true
 has_products: true
-has_portfolio: true
+has_portfolio: false
 has_blog: true
 has_contact: true
 home_name: Home

@@ -9,7 +9,7 @@
 
 	{% include features.html %}
 
-	{% include portfolio.html %}
+	{% if site.data.settings.has_portfolio %}{% include portfolio.html %}{% endif %}
 
 	{% include counter.html %}
 
