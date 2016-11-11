@@ -775,6 +775,7 @@ form label {
   color: #1a1a1a;
   float: left;
   margin-right: 10px;
+  font-weight: bold;
 }
 .gtco-heading p {
   font-size: 20px;
@@ -1723,6 +1724,7 @@ form label {
 #gtco-portfolio-list li a.color-1:before {
   background: rgba(55, 75, 84, 0.7);
 }
+#gtco-portfolio-list li:hover a.color-1:before,
 #gtco-portfolio-list li a.color-1:hover:before {
   background: rgba(55, 75, 84, 0);
 }
@@ -1943,3 +1945,4 @@ form label {
 }
 .radio input[type="radio"], .checkbox input[type="checkbox"] {margin: 7px 0 0 -20px;}
 .form-group input[type="submit"] {margin-top: 15px;}
+.post img {max-width: 100%;}
