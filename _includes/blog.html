@@ -1,7 +1,7 @@
-	<div class="gtco-section">
+	<div class="gtco-section" style="background: #efefef;">
 		<div class="gtco-container">
 
-			<div class="row animate-box fadeInUp animated-fast">
+			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2 class="editable">Our latest news</h2>
 					<p class="editable">We try to keep you informed on all things 'web'. Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
@@ -11,7 +11,7 @@
 			<div class="row row-pb-md">
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
-						{% for post in site.posts %}
+						{% for post in site.posts limit: 3 %}
 						<li class="one-third animate-box" data-animate-effect="fadeIn"> 
 							<a href="{{ post.url }}" class="color-1" style="background-image: url({{ post.image }}); background-size: cover; min-height: 250px;">
 								<div class="case-studies-summary">
@@ -35,7 +35,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4 text-center animate-box">
-					<a href="/products.html" class="btn btn-primary btn-lg btn-block">Gratis website? Start direct!</a>
+					<a href="/blog.html" class="btn btn-primary btn-lg btn-block">Meer blogberichten</a>
 				</div>
 			</div>
 
