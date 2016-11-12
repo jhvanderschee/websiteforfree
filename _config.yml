@@ -17,7 +17,7 @@ defaults:
       path: ""
       type: "portfolio"
     values:
-      layout: "post"
+      layout: "portfolio-item"
 
 permalink: /blog/:year/:month/:day/:title
 

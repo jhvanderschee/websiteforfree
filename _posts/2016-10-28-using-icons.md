@@ -4,7 +4,7 @@ image: /uploads/person_1.jpg
 description: "Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7!"
 ---
 
-Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7 - available to the public, 100% FREE! You may use or distribute it for any purpose, whether personal or commercial. This icon set is a must have tool for web designers and developers.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Themify Icons is a complete set of icons for use in web design and apps, consisting of 320+ pixel-perfect, hand-crafted icons that draw inspiration from Apple iOS 7 - available to the public, 100% FREE! You may use or distribute it for any purpose, whether personal or commercial. This icon set is a must have tool for web designers and developers.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non tortor eu quam faucibus dapibus ac nec libero. Morbi diam turpis, porta in diam eu, auctor lobortis justo. In mauris velit, eleifend sit amet volutpat et, aliquam at diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec nec mauris et est varius sagittis at at enim. Proin hendrerit libero at lectus ornare, et dapibus erat condimentum. Vivamus auctor faucibus dignissim. Etiam faucibus sollicitudin enim. Nunc non sem id augue luctus imperdiet. Vivamus ut massa consectetur, auctor ipsum euismod, egestas orci. Nulla facilisi.
 
