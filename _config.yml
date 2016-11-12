@@ -13,6 +13,11 @@ defaults:
       type: "products"
     values:
       layout: "product"
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "post"
 
 permalink: /blog/:year/:month/:day/:title
 
@@ -27,6 +32,7 @@ collections:
 colorsets: 
   - default
   - orange
+  - green
 
 input_types:
   - text
