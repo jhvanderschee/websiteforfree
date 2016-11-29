@@ -1,5 +1,5 @@
 ---
-title: Aesthetic
+title: Concept
 image: /uploads/concept_featured_img.jpg
 price: 'va. &euro; 0,- p/m'
 active: true
