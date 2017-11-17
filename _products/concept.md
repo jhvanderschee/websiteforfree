@@ -1,6 +1,6 @@
 ---
 title: Concept
-image: /uploads/concept_featured_img.jpg
+image: /uploads/concept_featured_img.png
 price: 'va. &euro; 0,- p/m'
 active: true
 order_num: 1
