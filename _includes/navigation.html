@@ -3,7 +3,7 @@
 			<div class="row">
 				<div class="col-md-12 text-right gtco-contact">
 					<ul class="">
-						<li><a href="tel:{{ site.data.social.phone }}"><i class="ti-mobile"></i> {{ site.data.social.phone }} </a></li>
+						<li><a href="tel:{{ site.data.social.phone | replace: '(0)','' | replace: ' ','' }}"><i class="ti-mobile"></i> {{ site.data.social.phone }} </a></li>
 						<li><a href="{{ site.data.social.twitter_url }}"><i class="ti-twitter-alt"></i> </a></li>
 						<li><a href="mailto:{{ site.data.social.email }}"><i class="icon-mail2"></i></a></li>
 						<li><a href="{{ site.data.social.facebook_url }}"><i class="ti-facebook"></i></a></li>
