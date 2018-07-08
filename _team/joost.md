@@ -4,4 +4,4 @@ image: /uploads/joost_bw.png
 function: Architect
 ---
 
-Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+Joost runt al meer dan 10 jaar Usecue BV, een bedrijfje gespecialiseerd in het bouwen en hosten van websites voor grote en kleine bedrijven.
