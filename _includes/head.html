@@ -10,7 +10,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>{{ page.title }} | {{ site.data.settings.title }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+	{% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 160 %}
+	<meta name="description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="author" content="gettemplates.co" />
 
   	<!-- Facebook and Twitter integration -->
