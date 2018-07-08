@@ -4,4 +4,4 @@ image: /uploads/person_1.jpg
 function: Bussiness Developer
 ---
 
-Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+Benjamin is de directeur van Red Button, een online productiebureau uit Amsterdam. Hij bouwt al meer dan 10 jaar websites voor grote namen.
