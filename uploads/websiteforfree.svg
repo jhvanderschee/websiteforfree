@@ -4,8 +4,8 @@
 	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
-<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="704.349" height="93.319"
-	 viewBox="0 0 704.349 93.319" overflow="visible" enable-background="new 0 0 704.349 93.319" xml:space="preserve">
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="746.277" height="93.319"
+	 viewBox="0 0 746.277 93.319" overflow="visible" enable-background="new 0 0 746.277 93.319" xml:space="preserve">
 <g>
 	<g>
 		<path fill="#FFFFFF" d="M346.625,61.508c-0.35,2.336-1.341,3.949-2.972,4.842c-0.758,0.068-1.325,0.034-1.704-0.103
@@ -365,4 +365,5 @@
 		<path fill="#FFFFFF" d="M294.617,63.976h-29.563V12.601h29.563v9.07h-18.664v11.117h17.363v9.07h-17.363v13.047h18.664V63.976z"/>
 	</g>
 </g>
+<circle fill="#333332" cx="736.277" cy="59.501" r="10"/>
 </svg>
