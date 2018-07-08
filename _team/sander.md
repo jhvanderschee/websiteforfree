@@ -4,4 +4,4 @@ image: /uploads/person_3.jpg
 function: Account Manager
 ---
 
-Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+Sander is onze duizendpoot. Hij beantwoordt de telefoon, programmeert en biedt een luisterend oor. Als hij niet aan het werk is geniet hij van het strand in Noordwijk.

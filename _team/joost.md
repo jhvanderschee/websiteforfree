@@ -4,4 +4,4 @@ image: /uploads/joost_bw.png
 function: Architect
 ---
 
-Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.
+Joost is oprichter en volledig eigenaar van Usecue BV, een bedrijfje dat al 10 jaar websites bouwt en host voor middelgrote en kleine bedrijven.
