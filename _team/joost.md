@@ -4,4 +4,4 @@ image: /uploads/joost_bw.png
 function: Architect
 ---
 
-Joost runt al meer dan 10 jaar Usecue BV, een bedrijfje gespecialiseerd in het bouwen en hosten van websites voor grote en kleine bedrijven.
+Joost is oprichter en volledig eigenaar van Usecue BV, een bedrijfje dat al 10 jaar websites bouwt en host voor grote en kleine bedrijven.
