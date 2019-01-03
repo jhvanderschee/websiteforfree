@@ -1949,3 +1949,8 @@ form label {
 .form-group input[type="submit"] {margin-top: 15px;}
 
 .article img {max-width: 100%;}
+
+
+@media screen and (max-width: 800px) {
+  h1 img {display: none;}
+}
