@@ -6,10 +6,11 @@
 					<div class="display-t">
 						<div class="display-tc">
 							<h1 class="animate-box editable" data-animate-effect="fadeInUp">
-							{% if page.layout == 'post' %}{{ site.data.settings.blog_name }}{% endif %}
-							{% if page.layout == 'product' %}{{ site.data.settings.products_name }}{% endif %}
-							{% if page.layout != 'product' and page.layout != 'post' %}{{ page.title }}{% endif %}</h1>
-							<h2 class="animate-box editable" data-animate-effect="fadeInUp">Een agency-kwaliteit website voor <A href="/pricing">bijna niets!</a></h2>
+							{% if page.layout == 'post' %}{{ site.data.settings.blog_name }}
+							{% elsif page.layout == 'portfolio-item' %}{{ site.data.settings.portfolio_name }}
+							{% elsif page.layout == 'product' %}{{ site.data.settings.products_name }}
+							{% else %}{{ page.title }}{% endif %}</h1>
+							<h2 class="animate-box editable" data-animate-effect="fadeInUp">Een agency-kwaliteit website, <A href="/pricing">helemaal gratis!</a></h2>
 						</div>
 					</div>
 				</div>

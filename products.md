@@ -1,4 +1,6 @@
 ---
-title: Templates
+title: Designs
 layout: products
 ---
+
+

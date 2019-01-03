@@ -1,7 +1,8 @@
 title: Website for free
-url: www.websiteforfree.nl
+url: https://websiteforfree.nl
+description: Website FOR FREE biedt gratis websites aan met open-source templates en WYSIWYG editor.
 logo_text: 'WEBSITE FOR FREE <em>.</em>'
-logo_image: /uploads/websiteforfreelogo.png
+logo_image: /uploads/websiteforfree.svg
 colorset: orange
 header_image: /uploads/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg
 has_home: true
@@ -9,14 +10,14 @@ has_about: true
 has_pricing: true
 has_services: true
 has_products: true
-has_portfolio: true
-has_blog: true
+has_portfolio: false
+has_blog: false
 has_contact: true
 home_name: Home
 about_name: Over ons
 pricing_name: Prijzen
 services_name: Diensten
-products_name: Templates
+products_name: Designs
 portfolio_name: Portfolio
 blog_name: Blog
 contact_name: Contact

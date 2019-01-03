@@ -9,13 +9,13 @@
 
 	{% include features.html %}
 
-	{% include portfolio.html %}
+	{% if site.data.settings.has_portfolio %}{% include portfolio.html %}{% endif %}
 
-	{% include blog.html %}
+	{% if site.data.settings.has_products %}{% include products.html %}{% endif %}
 
 	{% include counter.html %}
 
-	{% include products.html %}
+	{% if site.data.settings.has_blog %}{% include blog.html %}{% endif %}
 
 	{% include subscribe.html %}
 

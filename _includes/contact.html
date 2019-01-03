@@ -3,7 +3,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2 class="editable">Heb je nog vragen?</h2>
-					<p class="editable">Aarzel dan niet en stel ze. Vul het formulier hieronder in. We beantwoorden je vraag/vragen dan zo snel mogelijk. Uiteraard mag je ons via onderstaande manier ook bedanken voor deze fantastische service.</p>
+					<p class="editable">Aarzel dan niet en stel ze. Vul het formulier hieronder in. We beantwoorden je vraag/vragen dan zo snel mogelijk. Alvast bedankt voor je interesse.</p>
 				</div>
 			</div>
 			<div class="row row-pb-md">
@@ -84,9 +84,9 @@
 					<div class="gtco-contact-info">
 						<ul>
 							<li class="address editable">Soetendaal 7, <br>1081 BL Amsterdam, <br>Nederland</li>
-							<li class="phone"><a href="tel:{{ site.data.social.phone }}">{{ site.data.social.phone }}</a></li>
+							<li class="phone"><a href="tel:{{ site.data.social.phone | replace: '(0)','' | replace: ' ','' }}">{{ site.data.social.phone }}</a></li>
 							<li class="email"><a href="mailto:{{ site.data.social.email }}">{{ site.data.social.email }}</a></li>
-							<li class="url"><a href="{{ site.data.settings.url }}">{{ site.data.settings.url }}</a></li>
+							<li class="url"><a href="{{ site.data.settings.url }}">{{ site.data.settings.url | replace: 'https://','' | replace: 'http://','' }}</a></li>
 						</ul>
 					</div>
 

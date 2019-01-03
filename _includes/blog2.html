@@ -14,7 +14,7 @@
 						{% for post in site.posts %}
 						<li class="one-third animate-box" data-animate-effect="fadeIn" onclick="window.location.href='{{ post.url }}';" style="cursor: pointer;"> 
 							<a href="{{ post.url }}" class="color-1" style="background-image: url({{ post.image }}); background-size: cover; min-height: 250px;">
-								<div class="case-studies-summary">
+								<div class="case-studies-summary" style="bottom: 1.5em;">
 									<span>{{ post.date | date: "%F" }}</span>
 									<h2>{{ post.title }}</h2>
 								</div>

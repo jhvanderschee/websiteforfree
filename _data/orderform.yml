@@ -22,7 +22,7 @@ form_fields:
     required: false
   - name: abonnement
     input_type: radio
-    placeholder: 'GRATIS: &euro; 0,- per maand'
+    placeholder: 'FOR FREE: &euro; 0,- per maand'
     required: true
   - name: abonnement
     input_type: radio
