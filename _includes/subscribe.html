@@ -43,8 +43,8 @@
 						{% endif %}
 						{% if item.input_type == 'submit' %}
 						<div class="col-md-4 col-sm-4">
+							<div class="g-recaptcha" data-sitekey="6LcRmYYUAAAAANs8Rr8IrkOQ6REBddKkFTZ6TkeT" style="margin-bottom: 15px;"></div>
 							<input type="{{ item.input_type }}" class="btn btn-default btn-block" value="{{ item.placeholder }}" />
-							<div class="g-recaptcha" data-sitekey="6LcRmYYUAAAAANs8Rr8IrkOQ6REBddKkFTZ6TkeT" style="margin-top: 15px;"></div>
 						</div>
 						{% endif %}
 						{% endfor %}
