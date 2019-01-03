@@ -21,7 +21,7 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="{{ item.name }}" class="sr-only">{{ item.name }}</label>
-								{% if requiredtext == 'required' %}<input type="{{ item.input_type }}" name="{{ item.name }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" required>{% else %}<input type="{{ item.input_type }}" name="{{ item.name }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" >{% endif %}
+								{% if requiredtext == 'required' %}<input type="{{ item.input_type }}" name="{{ item.name }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" required>{% else %}<input type="{{ item.input_type }}" name="{{ item.name }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" onchange="if($(this).val() != '') $('.g-recaptcha').show();">{% endif %}
 							</div>
 						</div>
 						{% endif %}
@@ -29,7 +29,7 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="{{ item.name }}" class="sr-only">{{ item.name }}</label>
-								{% if requiredtext == 'required' %}<input type="{{ item.input_type }}" name="{{ item.name }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" required>{% else %}<input type="{{ item.input_type }}" name="{{ item.name }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" >{% endif %}
+								{% if requiredtext == 'required' %}<input type="{{ item.input_type }}" name="{{ item.name }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" required>{% else %}<input type="{{ item.input_type }}" name="{{ item.name }}" class="form-control" id="{{ item.name }}" placeholder="{{ item.placeholder }}" onchange="if($(this).val() != '') $('.g-recaptcha').show();">{% endif %}
 							</div>
 						</div>
 						{% endif %}
