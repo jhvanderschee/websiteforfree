@@ -8,4 +8,4 @@ order_num: 1
 
 Concept is gemaakt door onze vrienden van GetTemplates.co. Het template heeft twee kleurvarianten (reversed & default), het ondersteund blogging, producten en een portfolio. 
 
-Bekijk de [template demo](http://gettemplates.co/demos/concept/) of een [voorbeeldsite](http://eggplant-lobster.cloudvent.net/).
+Bekijk de [template demo](http://demo.gettemplates.co/concept/) of een [voorbeeldsite](http://eggplant-lobster.cloudvent.net/).
