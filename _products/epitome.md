@@ -6,4 +6,4 @@ active: true
 order_num: 5
 ---
 
-Abstract is gemaakt door onze vrienden van Styleshout. Bekijk de [template demo](https://www.styleshout.com/demo/?theme=epitome).
+Abstract is gemaakt door onze vrienden van Styleshout. Bekijk de [template demo](https://www.styleshout.com/templates/preview/epitome).
